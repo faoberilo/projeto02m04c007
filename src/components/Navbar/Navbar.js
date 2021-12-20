@@ -1,10 +1,15 @@
 import './Navbar.css';
+import logo from '../../images/logo.png';
+
+
 
 
 const Navbar = ()=>{
     return (
     <div className='navbar'>
-        <a href='/'><h1 className='navbar_title'>FaoFlix</h1></a>
+        
+        <a href='/'><h1 className='navbar_title'> <img src={logo} alt='logo do site'/>FaoFlix</h1></a>
+
       
         <div className='links'>
             <a href='/cadastrouser'><button className="botao">Cadastrar</button></a>

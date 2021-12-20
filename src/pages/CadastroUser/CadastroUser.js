@@ -40,8 +40,8 @@ const CadastroUser = () => {
                 <input type='email' id="email" name="email" placeholder='Email' required/>
                 <input type='text' id="birthdate" name="birthdate" placeholder='Data de Nascimento (dd/mm/aaaa)' required/>
                 <input type='text' id="imageUrl" name="imageUrl" placeholder='Link Imagem' required/>
-                <input type='text' id="password" name="password" placeholder='Senha' required/>
-                <input type='text' id="passwordConfirmation" name="passwordConfirmation" placeholder='Repetir Senha' required/>
+                <input type='password' id="password" name="password" placeholder='Senha' required/>
+                <input type='password' id="passwordConfirmation" name="passwordConfirmation" placeholder='Repetir Senha' required/>
                 <input type='submit' value="Cadastrar" />
             </form>
     </div>

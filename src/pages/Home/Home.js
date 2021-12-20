@@ -26,7 +26,7 @@ export default function Home (){
     return(
         <div className='home'>
                 <div className="lista">
-                
+         
                 {
                     filmes.map(filme=>(
                         <Card

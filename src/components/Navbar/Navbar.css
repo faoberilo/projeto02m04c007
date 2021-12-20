@@ -7,10 +7,15 @@
 }
 
 .navbar_title{
+    display: flex;
+    align-items: center;
     color: wheat;
     text-decoration: none;
 }
-
+.navbar_title img{
+    width: 4rem;
+    height: 4rem;
+}
 .botao{
     height: 2rem;
     padding: 0 1rem;
