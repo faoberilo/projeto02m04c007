@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './ViewUSer.css';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 export default function ViewUser(props){
     const navigate=useNavigate();
 
+    
     const [user,setUser] = useState({});
 
     useEffect(()=>{
@@ -14,11 +15,12 @@ export default function ViewUser(props){
     }, []);
     
     const getUser= async () => {
-        const request = await axios.get(`auth/profile`);
-        console.log(request);
+        const request = await axios.get(`auth/profile`).catch((response)=>{
+            alert('Usuário nao logado!');
+            navigate('/login');           
+        });
         const user = request.data;
         setUser(user);
-        console.log(user);
     }
 
     const handleClick = event =>{

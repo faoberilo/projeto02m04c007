@@ -2,8 +2,12 @@ import { useEffect, useState } from 'react';
 import Card from '../../components/Card/Card';
 import './Assistidos.css';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
+
 
 export default function Assistidos (){
+    const navigate=useNavigate();
+
 
     const [filmes,setFilmes] = useState([]);
     const [montado,setMontado] = useState(false);
@@ -12,8 +16,10 @@ export default function Assistidos (){
         await axios.get('user/seeList')
         .then(response=>{
             if(montado){
-                setFilmes(response.data);
+            setFilmes(response.data);
             }
+        }).catch((response)=>{
+            navigate('/login');           
         })
     }
 
