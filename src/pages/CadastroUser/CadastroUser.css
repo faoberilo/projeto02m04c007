@@ -1,0 +1,31 @@
+.cadastro{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 1rem;
+    
+}
+
+.formCadastro{
+    padding: 0.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+}
+
+.formCadastro input{
+    align-content: center;
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;    
+}
+
+.cadastro h2{
+    
+    color: white;
+}
