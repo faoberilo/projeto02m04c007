@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:tomato;
+    padding: 1rem;
+}
+
+.navbar_title{
+    display: flex;
+    align-items: center;
+    color: wheat;
+    text-decoration: none;
+}
+.navbar_title img{
+    width: 4rem;
+    height: 4rem;
+}
+.botao{
+    height: 2rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    border: 1px solid #000;
+    border-radius: 0.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}

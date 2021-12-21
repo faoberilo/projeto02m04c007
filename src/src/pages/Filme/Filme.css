@@ -1,0 +1,43 @@
+.filme{
+    width:100%;
+    display: flex;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1rem;
+    align-items: center;
+    
+}
+
+.filme img{
+    padding-top: 1rem;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 2rem;
+    object-fit: cover;    
+}
+
+
+.filme h2{
+    
+    color: white;
+}
+
+.filme button{
+    margin-top: 1rem;
+}
+
+.filme h1{
+    color:wheat;
+}
+
+.detalhes{
+    border-radius: 1rem;
+    background-color: rgba(165, 44, 22, 0.2);
+    margin-left: 1rem;
+}
+
+.detalhes b{
+    font-weight: bolder ;
+    color:tomato;
+}

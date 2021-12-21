@@ -1,0 +1,24 @@
+.user{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.user img{
+    width: 25rem;
+    height: 25rem;
+}
+
+.user .detalhes h1{
+    padding: 2.5rem;
+}
+.user .detalhes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.detalhes button{
+    margin: 1rem;
+}
