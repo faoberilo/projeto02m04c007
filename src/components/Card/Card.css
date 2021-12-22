@@ -2,6 +2,7 @@
     text-decoration: none;
 }
 img{
+    max-width: 20rem;
     width: 10rem;
     height: 15rem;
     border-radius: 2rem;
