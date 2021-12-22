@@ -6,13 +6,14 @@
     padding-right: 10%;
     padding-top: 1rem;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
 .filme img{
     padding-top: 1rem;
-    width: 20rem;
-    height: 30rem;
+    max-width: 20rem;
+    height: auto;
     border-radius: 2rem;
     object-fit: cover;    
 }
